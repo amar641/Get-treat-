@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button.logout {
+    background-color: #f44336;
+}
+
+button.logout:hover {
+    background-color: #d32f2f;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 2em 0;
+}
+
+/* Assignment Section */
+#assignmentSection {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="number"] {
+    width: 100%;
+    padding: 0.75em;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="file"]:focus,
+input[type="number"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+#assignments ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#assignments li {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#assignments li strong {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#assignments li a {
+    display: inline-block;
+    margin-top: 0.5em;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#assignments li a:hover {
+    text-decoration: underline;
+}
+
+/* Bids Section */
+#assignments li button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    font-size: 1rem;
+    margin-top: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#assignments li button:hover {
+    background-color: #e68900;
+}
+
+#assignments li p {
+    margin-top: 0.5em;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+#bids {
+    margin-top: 1em;
+    font-size: 0.9rem;
+}
+
+#bids p {
+    background-color: #f1f1f1;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    header {
+        font-size: 1.5rem;
+    }
+
+    #assignmentSection {
+        padding: 1em;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    input[type="number"] {
+        font-size: 0.9rem;
+        padding: 0.5em;
+    }
+
+    button {
+        padding: 0.5em;
+        font-size: 0.9rem;
+    }
+}

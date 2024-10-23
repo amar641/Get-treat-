@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET TREAT - Login</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" type="image/png" href="assest/favicon.png" sizes="16x16">
+</head>
+<body>
+<div class="container">
+    <div class="sidebar">
+        <img class="loginimg" src="assest/birdlogin.webp" alt="">
+    </div>
+
+    <div class="home">
+        <section id="login-page">
+            <div class="loginhead">GET TREAT
+                <div class="doregister">Don't have an account? <a href="SIGNUP.html" class="register">Sign Up</a></div>
+            </div>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email"><span class="loginLabel"></span></label>
+                    <input type="email" id="loginEmail" name="email" placeholder="username@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"><span class="loginLabel"></span></label>
+                    <input type="password" id="loginPassword" name="password" placeholder="Password" required>
+                </div>
+                <div id="submit-button">
+                    <button class="btn btn-secondary" type="submit">Log in</button>
+                </div>
+            </form>
+            <div class="page">
+                <div class="divider">or</div>
+                <button class="google" type="button">Log in With Google</button>
+                <button class="apple" type="button">Log in With Apple</button>
+                <div class="end">Forgot Password</div>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

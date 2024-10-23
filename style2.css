@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rg;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(assest/birdlogin.webp);
+    background-position: center;
+    background-size: auto;
+    
+}
+.container {
+    background: rgb(243, 243, 243);
+    position: static;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0px 10px 25px rgba(86, 92, 92, 0.1);
+    width: 510px;
+    height: 653px;
+    text-align: center;
+}
+#logo {
+    margin-top: 80px;
+    width: 70px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1200;
+    font-size: 45 px;
+    margin-top: 10px;
+    margin-bottom: 40px
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    color: #483939;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 0px;
+}
+
+input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius:50px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+input:focus {
+    border-color: #0c1a29;
+    outline: #38605f;
+}
+
+button {
+    width: 18%;
+    padding: 10px;
+    background-color:#38605f;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c91d6d;
+    transform: scale(1.1);
+}
+p {
+    margin-top: 15px;
+    color: #903a3a;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}

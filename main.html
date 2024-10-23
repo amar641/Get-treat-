@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page - Post Assignments</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Freelance Assignment Platform</h1>
+        <p id="welcomeMessage"></p>
+        <button onclick="logout()">Logout</button>
+    </header>
+
+    <section id="assignmentSection">
+        <h2>Post an Assignment</h2>
+        <form id="assignmentForm">
+            <div class="form-group">
+                <label for="assignmentTitle">Assignment Title:</label>
+                <input type="text" id="assignmentTitle" name="assignmentTitle" required>
+            </div>
+            <div class="form-group">
+                <label for="assignmentFile">Upload Assignment (PDF):</label>
+                <input type="file" id="assignmentFile" accept=".pdf" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount (Rs):</label>
+                <input type="number" id="amount" name="amount" required>
+            </div>
+            <button type="submit">Post Assignment</button>
+        </form>
+    </section>
+
+    <section id="assignmentList">
+        <h2>Available Assignments</h2>
+        <ul id="assignments">
+            <!-- Assignment items will be dynamically inserted here -->
+        </ul>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
